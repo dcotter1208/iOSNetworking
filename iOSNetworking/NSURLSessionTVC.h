@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NSURLSessionTVC.h
 //  iOSNetworking
 //
 //  Created by Cotter on 8/21/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NSURLSessionTVC : UITableViewController
 
 @end
-

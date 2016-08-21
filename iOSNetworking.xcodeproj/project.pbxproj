@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		640011C01D6A4242006A4754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 640011BF1D6A4242006A4754 /* main.m */; };
 		640011C31D6A4242006A4754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 640011C21D6A4242006A4754 /* AppDelegate.m */; };
-		640011C61D6A4242006A4754 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640011C51D6A4242006A4754 /* ViewController.m */; };
 		640011C91D6A4242006A4754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640011C71D6A4242006A4754 /* Main.storyboard */; };
 		640011CB1D6A4242006A4754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640011CA1D6A4242006A4754 /* Assets.xcassets */; };
 		640011CE1D6A4242006A4754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640011CC1D6A4242006A4754 /* LaunchScreen.storyboard */; };
+		640011D71D6A5F58006A4754 /* NSURLSessionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 640011D61D6A5F58006A4754 /* NSURLSessionTVC.m */; };
+		640011DA1D6A6E03006A4754 /* AFNetworkingTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 640011D91D6A6E03006A4754 /* AFNetworkingTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		640011BF1D6A4242006A4754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		640011C11D6A4242006A4754 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		640011C21D6A4242006A4754 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		640011C41D6A4242006A4754 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		640011C51D6A4242006A4754 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		640011C81D6A4242006A4754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		640011CA1D6A4242006A4754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		640011CD1D6A4242006A4754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		640011CF1D6A4242006A4754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640011D51D6A5F58006A4754 /* NSURLSessionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionTVC.h; sourceTree = "<group>"; };
+		640011D61D6A5F58006A4754 /* NSURLSessionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionTVC.m; sourceTree = "<group>"; };
+		640011D81D6A6E03006A4754 /* AFNetworkingTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkingTVC.h; sourceTree = "<group>"; };
+		640011D91D6A6E03006A4754 /* AFNetworkingTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				640011C11D6A4242006A4754 /* AppDelegate.h */,
 				640011C21D6A4242006A4754 /* AppDelegate.m */,
-				640011C41D6A4242006A4754 /* ViewController.h */,
-				640011C51D6A4242006A4754 /* ViewController.m */,
+				640011D51D6A5F58006A4754 /* NSURLSessionTVC.h */,
+				640011D61D6A5F58006A4754 /* NSURLSessionTVC.m */,
+				640011D81D6A6E03006A4754 /* AFNetworkingTVC.h */,
+				640011D91D6A6E03006A4754 /* AFNetworkingTVC.m */,
 				640011C71D6A4242006A4754 /* Main.storyboard */,
 				640011CA1D6A4242006A4754 /* Assets.xcassets */,
 				640011CC1D6A4242006A4754 /* LaunchScreen.storyboard */,
@@ -149,9 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				640011C61D6A4242006A4754 /* ViewController.m in Sources */,
+				640011DA1D6A6E03006A4754 /* AFNetworkingTVC.m in Sources */,
 				640011C31D6A4242006A4754 /* AppDelegate.m in Sources */,
 				640011C01D6A4242006A4754 /* main.m in Sources */,
+				640011D71D6A5F58006A4754 /* NSURLSessionTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
