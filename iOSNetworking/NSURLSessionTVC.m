@@ -75,11 +75,11 @@
     [super viewDidLoad];
     
     _barArray = [[NSMutableArray alloc]init];
-    [self foursquareBarsInDetroit];
+    [self foursquareDetroitBars];
 
 }
 
--(void)foursquareBarsInDetroit{
+-(void)foursquareDetroitBars{
     
     //1
     NSString *categoryID = @"4bf58dd8d48988d116941735";
